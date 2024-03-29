@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 10px 70px ;
+  justify-content: space-between;
+
+  img{
+    width: 110px;
+    height: 80px;
+  }
+  
+  input{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.178);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: rgb(1, 54, 61);
+    }
+  
+}
+nav{
+  display: flex;
+  gap: 40px;
+  margin-left:100px ;
+
+}
+nav a{
+  color: aliceblue;
+  text-decoration: none;
+ }
+ nav a:hover{
+  color: rgb(88, 146, 252);
+}
+
+
+
+.vikiped{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  background-image: url('https://static.wixstatic.com/media/12b4a2_bb2d883f870741969a7dfb6225dfa04a~mv2.gif');
+  background-size: cover;
+
+}
+
+.iyta{
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.904);
+  padding: 50px 40px;
+
+  p{
+    color: #fff;
+    font-weight: 700;
+    span{
+      color: rgb(0, 162, 255);
+    }
+  }
+
+}
+.work{
+  width: 100%;
+  height: 130vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  background-image: url('https://celes.club/uploads/posts/2022-05/1652981823_56-celes-club-p-fon-dlya-prezentatsii-roboti-krasivie-59.jpg');
+
+  h1{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .hhi{
+    position: absolute;
+    top: 20px;
+    border:   rgb(0, 162, 255) solid 1px ;
+    padding: 10px;
+  }
+}
+
+iframe{
+  width: 80vh;
+  height: 50vh;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.krus{
+  background-color: rgb(4, 2, 17);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.commm{
+  
+
+  gap: 10px;
+  img{
+    width: 250px;
+
+  }
+
+  p{
+    color: #fff;
+    font-size: 20px;
+  }
+  h1{
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+  }
+}
+
